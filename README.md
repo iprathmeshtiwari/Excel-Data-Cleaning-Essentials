@@ -1,5 +1,7 @@
 # Excel Data Cleaning Essentials — Customer Data Project
 
+![Excel Data Cleaning Essentials](https://raw.githubusercontent.com/iprathmeshtiwari/Excel-Data-Cleaning-Essentials/refs/heads/main/3.png)
+
 A portfolio-ready Excel data-cleaning project using a synthetic customer-purchases dataset. The raw CSV intentionally contains common quality issues so you can practice finding, documenting, and fixing them.
 
 ## Project goals
