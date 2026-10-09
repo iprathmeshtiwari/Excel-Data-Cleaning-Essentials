@@ -1,0 +1,12 @@
+Check,Count,Notes
+Raw records,12180,Includes intentionally injected duplicate rows.
+Exact duplicate rows,180,Remove only after checking duplicate definition.
+Missing values (all cells),250,Count of blank/null cells in raw data.
+Missing names,0,Name should normally be present.
+Missing emails,30,Review whether email is required for the use case.
+Malformed emails,113,Basic pattern check only; does not prove deliverability.
+Invalid ages,156,Project rule: age must be between 18 and 100.
+Invalid ratings,137,Project rule: rating must be 1 to 5.
+Non-numeric purchase amount entries,61,Inspect source before replacing; cleaned file recalculates amount.
+Invalid quantities,75,Project rule: quantity must be 1 to 20.
+Cleaned records,12000,"After normalization, invalid values marked blank, and exact duplicate rows removed."
